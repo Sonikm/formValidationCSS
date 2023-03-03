@@ -1,0 +1,58 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    background-color: #eee;
+    margin: 20px;
+    padding: 20px 30px;
+    border-radius: 6px;
+
+}
+
+div:hover {
+    box-shadow: 2px 2px 6px #9c9c9cb0, -2px -2px 6px #9c9c9c;
+
+}
+
+h2 {
+    margin: 20px 40px;
+}
+
+input[type="text"], select {
+    width: 100%;
+    margin: 8px 20px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    width: 100%;
+    background-color: rgb(19, 183, 52);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    box-shadow: 2px 1px 8px #12c56366;
+    background-color:rgb(21, 147, 21);
+}
+
+select option{
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+}
+
